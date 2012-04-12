@@ -1,0 +1,24 @@
+#include <iostream>
+
+class thcalc
+{
+	public:
+	void menuprint(std::string printer);
+	void printday();
+	int printdaystillclean();
+	void processinput();
+	void daydecrease();
+
+	void printhistory();
+	void passonx();
+	void manuallyenterthc();
+	void simulatexdays();
+	void daystillxpercent();
+
+	int input;
+	int running;
+	int day;
+	int THCcontent;
+	int history[1000];
+
+};
